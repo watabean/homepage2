@@ -1,15 +1,15 @@
 {
   "devDependencies": {
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
     "vuepress": "^0.10.2"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "config": {
-    "port": "8081"
-  },
   "dependencies": {
     "musubii": "^6.1.0"
   }
 }
+

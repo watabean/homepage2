@@ -101,6 +101,8 @@
 </template>
 
 <script>
+import 'musubii';
+
 export default {
   computed: {
     data() {
