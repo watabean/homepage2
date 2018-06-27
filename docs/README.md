@@ -44,14 +44,10 @@ features:
     image: /img/illust-feature-4.svg
     new: false
 footer:
-  license:
-    icon: fas fa-balance-scale
-    name: MIT
   author:
     icon: fab fa-twitter
-    name: Qrac
-    link: https://twitter.com/Qrac_JP
+    name: watabean
+    link: https://twitter.com/watabean
   copylight:
-    name: QRANOKO
-    link: https://qranoko.jp
+    name: わたなべ歯科
 ---

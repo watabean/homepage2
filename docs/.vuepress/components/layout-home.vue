@@ -70,13 +70,6 @@
     <footer class="section is-footer">
       <div class="inner">
         <div class="grid is-center is-gap-2x">
-          <div class="col" v-if="data.footer.license">
-            <p class="text is-sm is-light">
-              <span class="text">License:&nbsp;</span>
-              <i :class="data.footer.license.icon" aria-hidden="true" v-if="data.footer.license.icon"></i>
-              <span class="text">{{ data.footer.license.name }}</span>
-            </p>
-          </div>
           <div class="col" v-if="data.footer.author">
             <p class="text is-sm is-light">
               <span class="text">Author:&nbsp;</span>
