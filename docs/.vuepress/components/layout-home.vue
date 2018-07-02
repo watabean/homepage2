@@ -70,20 +70,26 @@
     <footer class="section is-footer">
       <div class="inner">
         <div class="grid is-center is-gap-2x">
-          <div class="col" v-if="data.footer.author">
+          <div class="col" v-if="data.footer.address">
             <p class="text is-sm is-light">
-              <span class="text">Author:&nbsp;</span>
-              <i :class="data.footer.author.icon" aria-hidden="true" v-if="data.footer.author.icon"></i>
-              <a class="text is-link-reverse" :href="data.footer.author.link" v-if="data.footer.author.link">{{ data.footer.author.name }}</a>
-              <span class="text" v-else="data.footer.author.link">{{ data.footer.author.name }}</span>
+              <i :class="data.footer.address.icon" aria-hidden="true" v-if="data.footer.address"></i>
+              <a class="text is-link-reverse" :href="data.footer.address.link" v-if="data.footer.address.name">{{ data.footer.address.name }}</a>
+              <span class="text" v-else="data.footer.address.name">{{ data.footer.address.name }}</span>
+            </p>
+          </div>
+          <div class="col" v-if="data.footer.tel">
+            <p class="text is-sm is-light">
+              <i :class="data.footer.tel.icon" aria-hidden="true" v-if="data.footer.tel.icon"></i>
+              <a class="text is-link-reverse" :href="data.footer.tel.number" v-if="data.footer.tel.number">{{ data.footer.tel.number }}</a>
+              <span class="text" v-else="data.footer.tel.number">{{ data.footer.tel.number }}</span>
             </p>
           </div>
           <div class="col" v-if="data.footer.copylight">
             <p class="text is-sm is-light">
               <span class="text">©&nbsp;</span>
+              <span class="text">{{ copylightYear }}&nbsp;</span>
               <a class="text is-link-reverse" :href="data.footer.copylight.link" v-if="data.footer.copylight.link">{{ data.footer.copylight.name }}</a>
               <span class="text" v-else="data.footer.copylight.link">{{ data.footer.copylight.name }}</span>
-              <span class="text">&nbsp;{{ copylightYear }}</span>
             </p>
           </div>
         </div>
@@ -95,6 +101,10 @@
 
 <script>
 import 'musubii';
+import '@fortawesome/fontawesome-free-webfonts/css/fontawesome.css'
+import '@fortawesome/fontawesome-free-webfonts/css/fa-brands.css'
+import '@fortawesome/fontawesome-free-webfonts/css/fa-regular.css'
+import '@fortawesome/fontawesome-free-webfonts/css/fa-solid.css'
 
 export default {
   computed: {

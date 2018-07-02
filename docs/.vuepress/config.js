@@ -19,7 +19,6 @@ module.exports = {
   themeConfig: {
     docsDir: 'docs',
     logo: '/img/teeth.svg',
-    lastUpdated: 'Last Updated',
     search: false,
     sidebarDepth: 2,
     nav: [

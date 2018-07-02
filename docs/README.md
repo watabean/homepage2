@@ -44,10 +44,13 @@ features:
     image: /img/illust-feature-4.svg
     new: false
 footer:
-  author:
-    icon: fab fa-twitter
-    name: watabean
-    link: https://twitter.com/watabean
+  address: 
+    name: 岐阜県多治見市金岡町2-104-1
+    link: access.html
+    icon: fas fa-map-marker-alt
+  tel: 
+    number: 0572-25-3610
+    icon: fas fa-phone
   copylight:
     name: わたなべ歯科
 ---
