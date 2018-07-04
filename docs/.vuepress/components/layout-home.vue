@@ -5,9 +5,8 @@
       <div class="inner-soft">
         <div class="grid is-middle is-center is-gap-6x">
           <div class="col is-space">
-            <p class="heading is-light is-weight-700" v-if="data.hero.heading1">
-              <span class="text is-block is-hero-1">{{ data.hero.heading1 }}</span>
-              <span class="text is-block is-hero-2" v-if="data.hero.heading2">{{ data.hero.heading2 }}</span>
+            <p class="heading is-light is-weight-700" v-if="data.hero.heading">
+              <span class="text is-block is-hero-1">{{ data.hero.heading }}</span>
             </p>
             <h1 class="texts is-light is-sm" v-if="data.hero.texts">
               <span class="text is-fablet-block" v-for="text in data.hero.texts">{{ text }}</span>
@@ -18,17 +17,6 @@
                 <span class="text">{{ data.download.text }}</span>
               </a>
             </div>
-            <p class="texts is-light is-center is-sm is-font-nunito" v-if="repoLink">
-              <i class="fab fa-github" aria-hidden="true"></i>
-              <span class="text" v-if="data.version">v{{ data.version }}・</span>
-              <a class="text is-link-reverse" :href="repoLink">
-                <span class="text">Repository</span>
-              </a>
-              <span class="text" v-if="repoRelease">・</span>
-              <a class="text is-link-reverse" v-if="repoRelease" :href="repoRelease">
-                <span class="text">Releases</span>
-              </a>
-            </p>
           </div>
           <div class="col" v-if="data.hero.image">
             <img class="obj is-hero-illust" :src="$withBase(data.hero.image)" alt="hero">
@@ -58,7 +46,6 @@
             <div class="group is-home-point-textbox is-space">
               <h2 class="heading is-xl" v-if="feature.heading">
                 <span class="text">{{ feature.heading }}</span>
-                <span class="obj is-badge is-new" v-if="feature.new === true"><span class="text">NEW</span></span>
               </h2>
               <p class="texts is-sm" v-if="feature.text">{{ feature.text }}</p>
             </div>
@@ -100,11 +87,11 @@
 </template>
 
 <script>
-import 'musubii';
-import '@fortawesome/fontawesome-free-webfonts/css/fontawesome.css'
-import '@fortawesome/fontawesome-free-webfonts/css/fa-brands.css'
-import '@fortawesome/fontawesome-free-webfonts/css/fa-regular.css'
-import '@fortawesome/fontawesome-free-webfonts/css/fa-solid.css'
+import "musubii";
+import "@fortawesome/fontawesome-free-webfonts/css/fontawesome.css";
+import "@fortawesome/fontawesome-free-webfonts/css/fa-brands.css";
+import "@fortawesome/fontawesome-free-webfonts/css/fa-regular.css";
+import "@fortawesome/fontawesome-free-webfonts/css/fa-solid.css";
 
 export default {
   computed: {
