@@ -3,13 +3,14 @@ layout: layout-home
 home: true
 version: 6.1.0
 hero:
-  heading: わたなべ歯科医院
+  heading1: わたなべ歯科医院
+  heading2: Watanabe Dental Clinic
   texts:
     - わたなべ歯科医院は多治見市に開業して
-    - 20年以上になる地域に根付いた歯医者です。
+    - 20年以上になる地域に根付いた歯科医院です。
   image: /img/teeth.svg
-download:
-  text: Download CSS
+receptionHours:
+  text: 診療時間
   path: /musubii/css/musubii.min.css
   file: musubii.min.css
 about:

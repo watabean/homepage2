@@ -11,7 +11,5 @@
     "build": "vuepress build docs"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
-    "musubii": "^6.1.0"
   }
 }

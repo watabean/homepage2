@@ -8,6 +8,9 @@ module.exports = {
   },
   head: [
     ['link', { rel: 'icon', href: '/img/favicon.png' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Quicksand' }],
+    ['link', { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.1.0/css/all.css' }],
+    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/musubii@6.2.0/docs/css/musubii.min.css' }],
     ['meta', { name: 'theme-color', content: '#1cb4c7' }],
     ['meta', { property: 'og:title', content: 'わたなべ歯科' }],
     ['meta', { property: 'og:description', content: '多治見市金岡町に開業して20年以上の歯医者です。' }],

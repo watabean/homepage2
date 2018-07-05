@@ -5,17 +5,19 @@
       <div class="inner-soft">
         <div class="grid is-middle is-center is-gap-6x">
           <div class="col is-space">
-            <p class="heading is-light is-weight-700" v-if="data.hero.heading">
-              <span class="text is-block is-hero-1">{{ data.hero.heading }}</span>
+            <p class="heading is-light is-weight-700" v-if="data.hero.heading1">
+              <span class="text is-block is-hero-1">{{ data.hero.heading1 }}</span>
+              <span class="text is-block is-hero-2" v-if="data.hero.heading2">{{ data.hero.heading2 }}</span>
             </p>
             <h1 class="texts is-light is-sm" v-if="data.hero.texts">
               <span class="text is-fablet-block" v-for="text in data.hero.texts">{{ text }}</span>
             </h1>
-            <div class="btns is-center is-lg" v-if="data.download.path">
-              <a class="btn is-plain is-round is-mobile-full is-weight-900 is-cyan is-font-nunito" :href="data.download.path" :download="data.download.file">
-                <i class="fas fa-cloud-download-alt" aria-hidden="true"></i>
-                <span class="text">{{ data.download.text }}</span>
+            <div class="btns is-center is-lg" v-if="data.receptionHours">
+              <a class="btn is-plain is-round is-mobile-full is-weight-900 is-cyan is-font-quicksand" :href="data.receptionHours.path" :download="data.receptionHours.file">
+                <i class="fas fa-clock" aria-hidden="true"></i>
+                <span class="text">{{ data.receptionHours.text }}</span>
               </a>
+              <table-reception-hours />
             </div>
           </div>
           <div class="col" v-if="data.hero.image">
@@ -87,12 +89,6 @@
 </template>
 
 <script>
-import "musubii";
-import "@fortawesome/fontawesome-free-webfonts/css/fontawesome.css";
-import "@fortawesome/fontawesome-free-webfonts/css/fa-brands.css";
-import "@fortawesome/fontawesome-free-webfonts/css/fa-regular.css";
-import "@fortawesome/fontawesome-free-webfonts/css/fa-solid.css";
-
 export default {
   computed: {
     data() {
