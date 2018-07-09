@@ -12,13 +12,13 @@
             <h1 class="texts is-light is-sm" v-if="data.hero.texts">
               <span class="text is-fablet-block" v-for="text in data.hero.texts">{{ text }}</span>
             </h1>
-            <div class="btns is-center is-lg" v-if="data.receptionHours">
+            <!-- <div class="btns is-center is-lg" v-if="data.receptionHours">
               <a class="btn is-plain is-round is-mobile-full is-weight-900 is-cyan is-font-quicksand" :href="data.receptionHours.path" :download="data.receptionHours.file">
                 <i class="fas fa-clock" aria-hidden="true"></i>
                 <span class="text">{{ data.receptionHours.text }}</span>
               </a>
-              <table-reception-hours />
-            </div>
+            </div> -->
+            <table-reception-hours />
           </div>
           <div class="col" v-if="data.hero.image">
             <img class="obj is-hero-illust" :src="$withBase(data.hero.image)" alt="hero">
