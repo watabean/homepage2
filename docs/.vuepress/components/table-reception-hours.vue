@@ -1,7 +1,7 @@
 <template>
   <div class="group is-scroll-x">
-    <table class="table is-border is-center is-font-quicksand">
-      <thead class="is-plain is-round is-mobile-full is-weight-900 is-cyan">
+    <table class="table is-border is-center is-font-quicksand is-round is-mobile-only-xxs">
+      <thead class="is-plain is-round is-weight-900 is-cyan">
         <tr>
           <th>
             <i class="fas fa-clock" aria-hidden="true"></i>
@@ -12,8 +12,8 @@
           <th>水</th>
           <th>木</th>
           <th>金</th>
-          <th>土</th>
-          <th>日/祝</th>
+          <th class="is-saturday">土</th>
+          <th class="is-sunday">日祝</th>
         </tr>
       </thead>
       <tbody>
@@ -41,3 +41,13 @@
     </table>
   </div>
 </template>
+
+<style lang="scss" scoped>
+@import '~moftone/src/scss/tone/_moftone.scss';
+.is-saturday {
+  background-color: $blue-100
+}
+.is-sunday {
+  background-color: $red-100
+}
+</style>

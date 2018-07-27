@@ -1,15 +1,14 @@
 {
   "devDependencies": {
     "moftone": "^6.2.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.9.2",
     "sass-loader": "^7.0.3",
     "stylus-dashi": "^0.1.0",
-    "vuepress": "^0.10.2"
+    "vuepress": "^0.12.0"
   },
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
