@@ -1,7 +1,6 @@
 ---
 layout: layout-home
 home: true
-version: 6.1.0
 hero:
   heading1: わたなべ歯科医院
   heading2: Watanabe Dental Clinic
@@ -25,23 +24,23 @@ about:
     - お気軽にご相談ください。
 features:
   - heading: 虫歯治療
-    text: Web制作は小技の積み重ねなので、毎回1から作っていたら辛いですよね。MUSUBiiにはリセットCSS・ボタン・グリッドなど利用頻度の高い汎用スタイルが詰まっています。まずはMUSUBiiをほおばってからWeb制作を始めてみましょう。
+    text: 虫歯治療を行っています。
     image: /img/illust-feature-1.svg
-  - heading: 
-    text: 命名規則は単純で、特定の要素に「.is-(xxxx)」のclassを加えていくだけです。英小文字・数字・ハイフン1つで繋ぐルールなので覚えやすい。インブラウザデザイン中にスピーディな修正・追加を試すことができます。
+  - heading: 予防歯科
+    text: 予防歯科を行っています。
     image: /img/illust-feature-2.svg
-  - heading: 入れ歯
-    text: バージョン5以降のMUSUBiiはレスポンシブWebデザインへの対応がより柔軟なりました。例えばモバイルだけボタンを幅100%にする場合は「.is-mobile-only-full」を加えるだけ。特定条件下でのサイズ変更や表示非表示を直感的に行えます。
+  - heading: 入れ歯制作
+    text: 入れ歯を制作しています。
     image: /img/illust-feature-3.svg
   - heading: 訪問治療
-    text: MUSUBiiは開発者であるデザイナーのクラクが1年で30以上の日本語サイトに組み込み検証を続けた実用性重視のCSSフレームワークです。実務に最低限必要なCSSを厳選するとともにブラウザ間のバグフィックスにも努めています。
+    text: 訪問治療を行っています。
     image: /img/illust-feature-4.svg
 footer:
-  address: 
+  address:
     name: 岐阜県多治見市金岡町2-104-1
     link: access.html
     icon: fas fa-map-marker-alt
-  tel: 
+  tel:
     number: 0572-25-3610
     icon: fas fa-phone
   copylight:
