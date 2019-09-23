@@ -100,20 +100,6 @@ export default {
         text: this.data.actionText
       };
     },
-    repoLink() {
-      const { repo } = this.$site.themeConfig;
-      if (repo) {
-        return /^https?:/.test(repo) ? repo : `https://github.com/${repo}`;
-      }
-    },
-    repoRelease() {
-      const { repo } = this.$site.themeConfig;
-      if (repo) {
-        return /^https?:/.test(repo)
-          ? repo
-          : `https://github.com/${repo}/releases`;
-      }
-    },
     copylightYear() {
       const _now = new Date();
       return _now.getFullYear();

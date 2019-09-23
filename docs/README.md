@@ -24,14 +24,14 @@ about:
     - お気軽にご相談ください。
 features:
   - heading: 虫歯治療
-    text: 虫歯治療を行っています。
-    image: /img/illust-feature-1.svg
+    text: 当院では歯を抜く必要がない場合は、できる限り歯を抜かないよう治療しています。また、治療の際にはなるべく痛みが少ないよう心がけています。
+    image: /img/IMG_3893.jpg
   - heading: 予防歯科
-    text: 予防歯科を行っています。
-    image: /img/illust-feature-2.svg
-  - heading: 入れ歯制作
-    text: 入れ歯を制作しています。
-    image: /img/illust-feature-3.svg
+    text: 予防歯科とは、虫歯や歯周病などになる前の予防をすることです。当院では患者さんの歯を守るために、歯磨きの指導などを大切にしています。
+    image: /img/IMG_3892.jpg
+  - heading: 入れ歯製作
+    text: 患者さんのお口にピッタリ合う入れ歯を作成しています。保険適用内でしっかりと噛める良質な入れ歯をお作りします。
+    image: /img/IMG_2857.jpg
   - heading: 訪問治療
     text: 訪問治療を行っています。
     image: /img/illust-feature-4.svg

@@ -7,7 +7,7 @@ module.exports = {
     }
   },
   head: [
-    ['link', { rel: 'icon', href: '/img/favicon.png' }],
+    ['link', { rel: 'icon', href: '/img/favicon2.png' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Quicksand' }],
     ['link', { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.1.0/css/all.css' }],
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/musubii@6.2.0/docs/css/musubii.min.css' }],
