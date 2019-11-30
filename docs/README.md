@@ -3,20 +3,17 @@ layout: layout-home
 home: true
 hero:
   heading1: わたなべ歯科医院
-  heading2: Watanabe Dental Clinic
   texts:
     - わたなべ歯科医院は多治見市に開業して
     - 20年以上になる地域に根付いた歯科医院です。
   image: /img/teeth.svg
 receptionHours:
   text: 診療時間
-  path: /musubii/css/musubii.min.css
-  file: musubii.min.css
 about:
   heading: 患者様の意見を尊重しています
   texts1:
     - 必ず患者様へ治療方針を提示し、
-    - ご納得いただいてからの治療を行なっています。
+    - ご納得いただき、治療を行なっています。
   texts2:
     - 気になること、
     - ご心配事がございましたら、
@@ -45,4 +42,5 @@ footer:
     icon: fas fa-phone
   copylight:
     name: わたなべ歯科
+    icon: fas fa-copyright
 ---
