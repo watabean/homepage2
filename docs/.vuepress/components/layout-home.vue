@@ -1,6 +1,5 @@
 <template>
   <div class="home is-wide-lg">
-
     <section class="section is-hero">
       <div class="inner-soft">
         <div class="grid is-middle is-center is-gap-6x">
@@ -12,12 +11,6 @@
             <h1 class="texts is-light is-sm" v-if="data.hero.texts">
               <span class="text is-fablet-block" v-for="text in data.hero.texts">{{ text }}</span>
             </h1>
-            <!-- <div class="btns is-center is-lg" v-if="data.receptionHours">
-              <a class="btn is-plain is-round is-mobile-full is-weight-900 is-cyan is-font-quicksand" :href="data.receptionHours.path" :download="data.receptionHours.file">
-                <i class="fas fa-clock" aria-hidden="true"></i>
-                <span class="text">{{ data.receptionHours.text }}</span>
-              </a>
-            </div> -->
             <table-reception-hours />
           </div>
           <div class="col" v-if="data.hero.image">
@@ -75,7 +68,7 @@
           </div>
           <div class="col" v-if="data.footer.copylight">
             <p class="text is-sm is-light">
-              <span class="text">©&nbsp;</span>
+              <i :class="data.footer.copylight.icon" aria-hidden="true" v-if="data.footer.copylight.icon"></i>
               <span class="text">{{ copylightYear }}&nbsp;</span>
               <a class="text is-link-reverse" :href="data.footer.copylight.link" v-if="data.footer.copylight.link">{{ data.footer.copylight.name }}</a>
               <span class="text" v-else="data.footer.copylight.link">{{ data.footer.copylight.name }}</span>
