@@ -30,11 +30,11 @@ module.exports = {
         link: '/'
       },
       {
-        text: '当医院について',
+        text: '治療内容',
         link: '/about'
       },
       {
-        text: '院長あいさつ',
+        text: 'ドクター紹介',
         link: '/introduce'
       },
       {

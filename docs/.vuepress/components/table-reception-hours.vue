@@ -5,7 +5,7 @@
         <tr>
           <th>
             <i class="fas fa-clock" aria-hidden="true"></i>
-            <span class="text is-mobile-xxs is-desktop-md">診療時間</span>
+            <span class="text is-desktop-md is-mobile-md">診療時間</span>
           </th>
           <th>月</th>
           <th>火</th>
@@ -45,10 +45,10 @@
 <style lang="scss" scoped>
 @import '~moftone/src/scss/tone/_moftone.scss';
 .is-saturday {
-  background-color: $blue-100;
+  color: $blue-500;
 }
 .is-sunday {
-  background-color: $red-100;
+  color: $red-500;
 }
 .table {
   display: table;
