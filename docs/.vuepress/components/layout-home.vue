@@ -99,7 +99,7 @@
           <div class="col" v-if="data.footer.tel">
             <p class="text is-sm is-light">
               <i :class="data.footer.tel.icon" aria-hidden="true" v-if="data.footer.tel.icon"></i>
-              <a class="text is-link-reverse" :href="data.footer.tel.number" v-if="data.footer.tel.number">{{ data.footer.tel.number }}</a>
+              <a class="text is-link-reverse" :href="data.footer.tel.link" v-if="data.footer.tel.number">{{ data.footer.tel.number }}</a>
               <span class="text" v-else="data.footer.tel.number">{{ data.footer.tel.number }}</span>
             </p>
           </div>
