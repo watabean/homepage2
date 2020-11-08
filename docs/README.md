@@ -35,10 +35,11 @@ features:
 footer:
   address:
     name: 岐阜県多治見市金岡町2-104-1
-    link: access.html
+    link: /#access
     icon: fas fa-map-marker-alt
   tel:
     number: 0572-25-3610
+    link: tel:0572253610
     icon: fas fa-phone
   copylight:
     name: わたなべ歯科
