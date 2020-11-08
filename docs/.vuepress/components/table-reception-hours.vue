@@ -5,7 +5,7 @@
         <tr>
           <th>
             <i class="fas fa-clock" aria-hidden="true"></i>
-            <span class="text is-desktop-md is-mobile-md">診療時間</span>
+            診療時間
           </th>
           <th>月</th>
           <th>火</th>

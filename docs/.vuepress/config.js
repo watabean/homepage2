@@ -26,44 +26,40 @@ module.exports = {
     sidebarDepth: 2,
     nav: [
       {
-        text: 'トップ',
-        link: '/'
-      },
-      {
         text: '治療内容',
-        link: '/about'
+        link: '/#feature'
       },
       {
         text: 'ドクター紹介',
-        link: '/introduce'
+        link: '/#introduce'
       },
       {
         text: 'アクセス',
-        link: '/access'
+        link: '/#access'
       }
     ],
     sidebar: {
-      '/about': [
+      '/#feature': [
         {
           collapsable: false,
           children: [
-            '/about'
+            '/#feature'
           ]
         }
       ],
-      '/introduce': [
+      '/#introduce': [
         {
           collapsable: false,
           children: [
-            '/introduce'
+            '/#introduce'
           ]
         }
       ],
-      '/access': [
+      '/#access': [
         {
           collapsable: false,
           children: [
-            '/access'
+            '/#access'
           ]
         }
       ]
